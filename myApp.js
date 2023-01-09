@@ -2,7 +2,7 @@ let express = require("express");
 let app = express();
 
 app.get("/", function () {
-  console.log("Hello World");
+  console.log("Hello Express");
 });
 
 module.exports = app;
